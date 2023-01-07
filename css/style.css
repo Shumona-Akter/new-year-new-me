@@ -4,24 +4,27 @@
     box-sizing: border-box;
     font-family: 'Work Sans';
     list-style: none;
-    font-style: normal;
     
 }
 
 
 .section-title{
+    font-family: 'Work Sans';
+    font-style: normal;
     font-weight: 700;
     font-size: 40px;
     line-height: 47px;
     color: #151414;
 }
 .para{
+    font-style: normal;
     font-weight: 400;
     font-size: 16px;
     line-height: 26px;
     color: #444343;
 }
 .button{
+    font-style: normal;
     font-weight: 600;
     font-size: 20px;
     text-align: right;
@@ -40,10 +43,10 @@ header{
     background-position:center;
     background-size: cover;
     background-repeat: no-repeat;
-    padding:40px 0 166px 0;
 }
 /* ==== nav css start ==== */
 nav{
+    padding: 40px 0;
     margin: 0 200px;
 }
 nav ul{
@@ -66,6 +69,7 @@ nav li:hover{
 }
 nav li a{
     text-decoration: none;
+    font-style: normal;
     font-weight: 600;
     font-size: 20px;
     color: #FFFFFF;
@@ -88,19 +92,15 @@ nav li:hover a{
     line-height: 76px;
     text-align: right;
     color: #FFFFFF;
-    margin-top: 230px;
+    margin-top: 200px;
     margin-bottom: 24px;
 }
-.banner p{
-    font-style: normal;
-    font-weight: 400;
-    font-size: 16px;
-    line-height: 26px;
+.banner .para{
     color: #FFFFFF;
-    margin-bottom: 32px;
-
 }
-
+.banner .button{
+    margin: 32px 0 166px 0;
+}
 /* ==== banner css end ==== */
 /* ==== header css end ==== */
 /* ==== main part css start ==== */
@@ -113,7 +113,7 @@ main{
     align-items: center;
     justify-content: space-between;
 }
-.failure-previous p{
+.failure-previous .para{
     margin-top: 24px;
     margin-bottom: 16px;
 }
@@ -121,6 +121,7 @@ main{
     padding-left: 77px;
 }
 .failure-previous .failure-content li{
+    font-style: normal;
     font-weight: 400;
     font-size: 16px;
     line-height: 26px;
@@ -148,7 +149,9 @@ main{
     width: 214px;
     padding: 18px 0;
 }
-
+.my-plan .plan-items .plan:hover{
+    background-color: #005FAC;
+}
 .my-plan .plan-items h3{
     font-weight: 700;
     font-size: 23px;
@@ -157,10 +160,14 @@ main{
     margin-bottom: 14px;
 }
 .my-plan .plan-items p{
+    font-style: normal;
     font-weight: 500;
     font-size: 20px;
     text-align: center;
     color: #737272;
+}
+.my-plan .plan-items .plan:hover p{
+    color: #FFFFFF;
 }
 
 .my-plan .mindset{
@@ -187,16 +194,14 @@ main{
    border-radius: 8px;
    z-index: -1;
 }
-.my-plan .mindset h1{
-    font-weight: 700;
-    font-size: 40px;
-    line-height: 47px;
-    color: #FFFFFF;
+.my-plan .mindset .section-title{
     text-align: left;
-    margin-bottom: 24px;
+    color: #FFFFFF;
     
 }
-
+.my-plan .mindset .button{
+    margin-top: 24px;
+}
 
 /* == my plans part start == */
 
