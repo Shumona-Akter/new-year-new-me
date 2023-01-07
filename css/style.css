@@ -1,0 +1,263 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Work Sans';
+    list-style: none;
+    
+}
+
+
+.section-title{
+    font-family: 'Work Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 47px;
+    color: #151414;
+}
+.para{
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    color: #444343;
+}
+.button{
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    text-align: right;
+    color: #005FAC;
+    background: #FFFFFF;
+    border-radius: 5px;
+    padding: 21px 26px;
+    border: 1px solid transparent;
+}
+
+
+/* ==== common css end ==== */
+/* header part start */
+header{
+    background: url(../images/banner/banner3.png) no-repeat center / cover;
+    background-size: cover;
+}
+/* ==== nav css start ==== */
+nav{
+    padding: 40px 0;
+    margin: 0 230px;
+}
+nav ul{
+    display: flex;
+    justify-content: end
+    
+}
+nav li{
+    list-style: none;
+    margin-left: 10px;
+    padding: 21px 26px;
+    border-radius: 5px;
+}
+nav li:hover{
+    list-style: none;
+    margin-left: 10px;
+    padding: 21px 26px;
+    background: #FFFFFF;
+    border-radius: 5px;
+}
+nav li a{
+    text-decoration: none;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    color: #FFFFFF;
+}
+nav li:hover a{
+    color: #005FAC;
+}
+/* ==== nav css end ==== */
+/* ==== banner css sart ==== */
+#banner{
+    margin: 0 230px;
+    text-align: right;
+    padding-left: 300px;
+}
+#banner .main-heading{
+    font-family: 'Work Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 65px;
+    line-height: 76px;
+    text-align: right;
+    color: #FFFFFF;
+    margin-top: 200px;
+    margin-bottom: 24px;
+}
+#banner .para{
+    color: #FFFFFF;
+
+}
+#banner .button{
+    margin: 32px 0 166px 0;
+}
+/* ==== banner css end ==== */
+/* ==== header css end ==== */
+/* ==== main part css start ==== */
+main{
+    margin: 130px 200px;
+}
+/* == failure previous part start == */
+#failure-previous{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+#failure-previous .para{
+    margin-top: 24px;
+    margin-bottom: 16px;
+}
+#failure-previous .failure-content{
+    padding-left: 77px;
+}
+#failure-previous .failure-content li{
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    color: #444343;
+    margin-bottom: 8px;
+}
+#failure-previous span{
+    color: #16D887;
+    margin-right: 10px;
+}
+/* == failure previous part end == */
+/* == my plans part start == */
+#my-plan{
+    margin-top: 130px;
+    text-align: center;
+}
+#my-plan .plan-items{
+    margin-top: 50px;
+    margin-bottom: 130px;
+    display: flex;
+    gap: 20px;
+}
+#my-plan .plan-items .plan{
+    box-shadow: 5px 5px 10px #f1f1f1;
+    width: 214px;
+    padding: 18px 0;
+}
+#my-plan .plan-items .plan:hover{
+    background-color: #005FAC;
+}
+#my-plan .plan-items h3{
+    font-weight: 700;
+    font-size: 23px;
+    color: #151414;
+    margin-top: 20px;
+    margin-bottom: 14px;
+}
+#my-plan .plan-items p{
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    text-align: center;
+    color: #737272;
+}
+#my-plan .plan-items .plan:hover p{
+    color: #FFFFFF;
+}
+
+#my-plan .mindset{
+    background: url(../images/watch.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    width: 100%;
+    text-align: left;
+    padding: 59px 300px 24px 64px;
+}
+#my-plan .mindset .section-title{
+    text-align: left;
+    color: #FFFFFF;
+    
+}
+#my-plan .mindset .button{
+    margin-top: 24px;
+    
+}
+#my-plan .mindset .button:hover {
+    color: #FFFFFF;
+    background-color: #005FAC;
+    
+}
+/* == my plans part start == */
+
+/* ==== main part css end ==== */
+
+/* ==== footer part  start ==== */
+footer{
+    background: #151414;
+    padding: 130px 230px;
+    display: flex;
+    justify-content: space-between;
+}
+footer .future-contact{
+    width: 350px;
+}
+footer h2{
+    font-weight: 700;
+    font-size: 45px;
+    color: #F8F8F8;
+    text-align: left;
+}
+footer .para{
+    color: #FFFFFF;
+}
+footer p{
+    color: #FFFFFF;
+    font-size: 16px;
+    padding: 16px 0 24px 0;
+}
+footer p span{
+    display: block;
+    margin-top: 16px;
+    margin-bottom: 32px;
+}
+
+footer img{
+    margin-right: 17px;
+}
+footer .subscribe-form{
+    width: 350px;
+}
+footer .subscribe-form h3{
+    font-weight: 600;
+    font-size: 25px;
+    color: #FFFFFF;
+}
+footer input{
+    width: 100%;
+    height: 64px;
+    display: block;
+    margin-top: 31px;
+    margin-bottom: 16px;
+    outline: none;
+    border: none;
+    border-radius: 5px;
+    padding: 21px;
+}
+footer input::placeholder{
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 21px;
+    color: #F3F3F3;
+}
+footer .button{
+    background: #005FAC;
+    color: #FFFFFF;
+}
+
+/* ==== footer part  start ==== */
+
