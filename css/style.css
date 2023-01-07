@@ -77,12 +77,12 @@ nav li:hover a{
 }
 /* ==== nav css end ==== */
 /* ==== banner css sart ==== */
-#banner{
+.banner{
     margin: 0 230px;
     text-align: right;
     padding-left: 300px;
 }
-#banner .main-heading{
+.banner h1{
     font-family: 'Work Sans';
     font-style: normal;
     font-weight: 700;
@@ -93,11 +93,11 @@ nav li:hover a{
     margin-top: 200px;
     margin-bottom: 24px;
 }
-#banner .para{
+.banner .para{
     color: #FFFFFF;
 
 }
-#banner .button{
+.banner .button{
     margin: 32px 0 166px 0;
 }
 /* ==== banner css end ==== */
@@ -177,6 +177,21 @@ main{
     width: 100%;
     text-align: left;
     padding: 59px 300px 24px 64px;
+    border-radius: 8px;
+    position: relative;
+    z-index: 1;
+
+}
+
+.overflow{
+    top: 0;
+    left: 0;
+    position: absolute;
+   width: 100%;
+   height: 100%;
+   background: linear-gradient(90deg, #005FAC 0%, rgba(0, 95, 172, 0) 100%);
+   border-radius: 8px;
+   z-index: -1;
 }
 #my-plan .mindset .section-title{
     text-align: left;
@@ -187,11 +202,7 @@ main{
     margin-top: 24px;
     
 }
-#my-plan .mindset .button:hover {
-    color: #FFFFFF;
-    background-color: #005FAC;
-    
-}
+
 /* == my plans part start == */
 
 /* ==== main part css end ==== */
