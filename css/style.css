@@ -149,9 +149,7 @@ main{
     width: 214px;
     padding: 18px 0;
 }
-.my-plan .plan-items .plan:hover{
-    background-color: #005FAC;
-}
+
 .my-plan .plan-items h3{
     font-weight: 700;
     font-size: 23px;
@@ -165,9 +163,6 @@ main{
     font-size: 20px;
     text-align: center;
     color: #737272;
-}
-.my-plan .plan-items .plan:hover p{
-    color: #FFFFFF;
 }
 
 .my-plan .mindset{
